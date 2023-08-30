@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../styles.css">
+    <title>Battleground</title>
+  </head>
+  <body class="body-background">
+    <div class="header">
+      <a href="../../index.html"><img src="../../images/source/dfbanner.jpg" class="header-image"></a>
+      <div class="header-text"></div>
+    </div>
+    <!-- Navigation Menu Container -->
+    <nav class="sideNav">
+      <!-- PvP Dropdown -->
+      <button class="dropdown-btn">PvP
+        <i class="dropdown-arrow"></i>
+      </button>
+      <nav class="sideNav-dropdown">
+        <a href="pvpbasics.html">PvP Basics</a>
+        <a href="arenas.html">Arenas</a>
+        <a href="battlegrounds.html">Battlegrounds</a>
+      </nav>
+      <!-- Factions Dropdown -->
+      <button class="dropdown-btn">Factions
+        <i class="dropdown-arrow"></i>
+      </button>
+      <nav class="sideNav-dropdown">
+        <a href="../factions/alliance.html" id="factions-alliance">Alliance</a>
+        <a href="../factions/horde.html" id="factions-horde">Horde</a>
+      </nav>
+      <!-- Race Dropdown -->
+      <button class="dropdown-btn">Races
+        <i class="dropdown-arrow"></i>
+      </button>
+      <nav class="sideNav-dropdown">
+        <button class="dropdown-btn" id="alliance-btn">Alliance
+          <i class="dropdown-arrow"></i>
+        </button>
+        <nav class="sideNav-dropdown2">
+          <a href="../races_alliance/human.html">Human</a>
+          <a href="../races_alliance/dwarf.html">Dwarf</a>
+          <a href="../races_alliance/nightelf.html">Night Elf</a>
+          <a href="../races_alliance/gnome.html">Gnome</a>
+          <a href="../races_alliance/draenei.html">Draenei</a>
+          <a href="../races_alliance/worgen.html">Worgen</a>
+          <a href="../races_alliance/pandaren_a.html">Pandaren</a>
+          <button class="dropdown-btn">Allied
+            <i class="dropdown-arrow"></i>
+          </button>
+          <nav class="sideNav-dropdown3">
+            <a href="../races_alliance/voidelf.html">Void Elf</a>
+            <a href="../races_alliance/lightforged_draenei.html">Lightforged<br>Draenei</a>
+            <a href="../races_alliance/dark_iron_dwarf.html">Dark Iron <br>Dwarf</a>
+            <a href="../races_alliance/kultiran.html">Kul Tiran</a>
+            <a href="../races_alliance/mechagnome.html">Mechagnome</a>
+          </nav>
+        </nav>
+        <button class="dropdown-btn" id="horde-btn">Horde
+          <i class="dropdown-arrow"></i>
+        </button>
+        <nav class="sideNav-dropdown2">
+          <a href="../races_horde/orc.html">Orc</a>
+          <a href="../races_horde/undead.html">Undead</a>
+          <a href="../races_horde/tauren.html">Tauren</a>
+          <a href="../races_horde/troll.html">Troll</a>
+          <a href="../races_horde/bloodelf.html">Blood Elf</a>
+          <a href="../races_horde/goblin.html">Goblin</a>
+          <a href="../races_horde/pandaren_h.html">Pandaren</a>
+          <button class="dropdown-btn">Allied
+            <i class="dropdown-arrow"></i>
+          </button>
+          <nav class="sideNav-dropdown3">
+            <a href="../races_horde/nightborne.html">Nightborne</a>
+            <a href="../races_horde/highmountain_tauren.html">Highmountain<br>Tauren</a>
+            <a href="../races_horde/maghar_orc.html">Mag'har Orc</a>
+            <a href="../races_horde/zandalari_troll.html">Zandalari<br>Troll</a>
+            <a href="../races_horde/vulpera.html">Vulpera</a>
+          </nav>
+        </nav>
+      </nav>
+      <!-- Class Dropdown -->
+      <button class="dropdown-btn">Classes
+        <i class="dropdown-arrow"></i>
+      </button>
+      <nav class="sideNav-dropdown">
+        <a href="../classes/deathknight.html" id="dk-color">Death Knight</a>
+        <a href="../classes/demonhunter.html" id="dh-color">Demon Hunter</a>
+        <a href="../classes/druid.html" id="druid-color">Druid</a>
+        <a href="../classes/hunter.html" id="hunter-color">Hunter</a>
+        <a href="../classes/mage.html" id="mage-color">Mage</a>
+        <a href="../classes/monk.html" id="monk-color">Monk</a>
+        <a href="../classes/paladin.html" id="paladin-color">Paladin</a>
+        <a href="../classes/priest.html" id="priest-color">Priest</a>
+        <a href="../classes/rogue.html" id="rogue-color">Rogue</a>
+        <a href="../classes/shaman.html" id="shaman-color">Shaman</a>
+        <a href="../classes/warlock.html" id="warlock-color">Warlock</a>
+        <a href="../classes/warrior.html" id="warrior-color">Warrior</a>
+      </nav>
+      <!-- Gallery Dropdown -->
+      <button class="dropdown-btn">Gallery
+        <i class="dropdown-arrow"></i>
+      </button>
+      <nav class="sideNav-dropdown">
+        <a href="../gallery/scoreboard.html">Scoreboard</a>
+      </nav>
+    </nav>
+    <!-- Main Container-->
+    <div class="main">
+      <div class="main-content">
+        <h2>Battlegrounds</h2>
+        <p>Battlegrounds are an instance where two teams compete for experience,
+           honor, and sometimes rating. Usually battlegrounds are Alliance vs Horde.
+           Except in rated battlegrounds the same faction teams can compete against
+           eachother.</p>
+      </div>
+      <div class="main-content2">
+        <h2>Rated Battleground</h2>
+        <p>Alliance and Horde rated battleground titles from worst to best.</p>
+        <div class="main-row">
+          <div class="main-column">
+            <!-- <h4 class="text-center">Titles/Ratings</h4> -->
+            <table class="main-table">
+              <h4 class="text-center">Titles/Ratings</h4>
+              <tr>
+                <th>Rating</th>
+                <th>Alliance</th>
+                <th>Horde</th>
+              </tr>
+              <tr>
+                <td>1100</td>
+                <td>Private</td>
+                <td>Scout</td>
+              </tr>
+              <tr>
+                <td>1200</td>
+                <td>Corporal</td>
+                <td>Grunt</td>
+              </tr>
+              <tr>
+                <td>1300</td>
+                <td>Sergeant</td>
+                <td>Sergeant</td>
+              </tr>
+              <tr>
+                <td>1400</td>
+                <td>Master Sergeant</td>
+                <td>Senior Sergeant</td>
+              </tr>
+              <tr>
+                <td>1500</td>
+                <td>Sergeant Major</td>
+                <td>First Sergeant</td>
+              </tr>
+              <tr>
+                <td>1600</td>
+                <td>Knight</td>
+                <td>Stone Guard</td>
+              </tr>
+              <tr>
+                <td>1700</td>
+                <td>Knight-Lieutenant</td>
+                <td>Blood Guard</td>
+              </tr>
+              <tr>
+                <td>1800</td>
+                <td>Knight-Captain</td>
+                <td>Legionnaire</td>
+              </tr>
+              <tr>
+                <td>1900</td>
+                <td>Knight-Champion</td>
+                <td>Centurion</td>
+              </tr>
+              <tr>
+                <td>2000</td>
+                <td>Lieutenant Commander</td>
+                <td>Champion</td>
+              </tr>
+              <tr>
+                <td>2100</td>
+                <td>Commander</td>
+                <td>Lieutenant General</td>
+              </tr>
+              <tr>
+                <td>2200</td>
+                <td>Marshal</td>
+                <td>General</td>
+              </tr>
+              <tr>
+                <td>2300</td>
+                <td>Field Marshal</td>
+                <td>Warlord</td>
+              </tr>
+              <tr>
+                <td>2400</td>
+                <td>Grand Marshal</td>
+                <td>High Warlord</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="main-content2">
+        <h2>Battleground Types</h2>
+        <h3>Resource Race</h3>
+
+        <p>Name: Arathi Basin</p>
+        <p>Battleground size: 15 vs 15</p>
+        <p>Win Condition: 1500 points</p>
+        <p>Strategy: Hold 3 or more nodes.</p>
+        <p><img class="pvpbasics-img" src="../../images/img_pvp/ab.png" alt="Arathi Basin"><p>
+        <br>
+        <p>Name: Eye of the Storm</p>
+        <p>Battleground size: 15 vs 15</p>
+        <p>Win Condition: 1500 points</p>
+        <p>Strategy: Hold 3 or more nodes. Or hold one node and capture flag.</p>
+        <p><img class="pvpbasics-img" src="../../images/img_pvp/eots.jpg" alt="Eye of the Storm"><p>
+        <br>
+        <p>Name: Battle for Gilneas</p>
+        <p>Battleground size: 10 vs 10</p>
+        <p>Win Condition: 1500 points</p>
+        <p>Strategy: Hold 2 or more nodes.</p>
+        <p><img class="pvpbasics-img" src="../../images/img_pvp/bfg.jpg" alt=" Battle for Gilneas"><p>
+        <br>
+        <p>Name: Silvershard Mines</p>
+        <p>Battleground size: 10 vs 10</p>
+        <p>Win Condition: 1500 points</p>
+        <p>Strategy: Hold 2 or more carts. Or zerg the nearest cart.</p>
+        <p><img class="pvpbasics-img" src="../../images/img_pvp/ssm.jpg" alt="Silvershard Mines"><p>
+        <br>
+        <p>Name: Temple of Kotmogu</p>
+        <p>Battleground size: 10 vs 10</p>
+        <p>Win Condition: 1500 points</p>
+        <p>Strategy: Grab orbs then jump into the middle. Stay alive and hold the orb as long as possible.
+        Kill enemy orb carriers. Best to hold 3 or more orbs and control middle.</p>
+        <p><img class="pvpbasics-img" src="../../images/img_pvp/tok.jpg" alt="Temple of Kotmogu"><p>
+        <br>
+        <p>Name: Deepwind Gorge</p>
+        <p>Battleground size: 15 vs 15</p>
+        <p>Win Condition: 1500 points</p>
+        <p>Strategy: Hold 3 or more nodes.</p>
+        <p><img class="pvpbasics-img" src="../../images/img_pvp/dwg.jpg" alt="Deepwind Gorge"><p>
+        <br>
+        <h3>Capture the Flag</h3>
+        <p>Name: Warsong Gulch</p>
+        <p>Battleground size: 10 vs 10</p>
+        <p>Win Condition: Capture 3 flags</p>
+        <p>Strategy: Fight enemy team in the middle at the start. Kill enemy group then escort flag carrier to
+        enemy flag then escort flag carrier back to base. Send kill squad to kill enemy flag carrier.</p>
+        <p><img class="pvpbasics-img" src="../../images/img_pvp/wsg.jpg" alt="Warsong Gulch"><p>
+        <br>
+        <p>Name: Twin Peaks</p>
+        <p>Battleground size: 10 vs 10</p>
+        <p>Win Condition: Capture 3 flags</p>
+        <p>Strategy: Fight enemy team in the middle at the start. Kill enemy group then escort flag carrier to
+        enemy flag then escort flag carrier back to base. Send kill squad to kill enemy flag carrier.</p>
+        <p><img class="pvpbasics-img" src="../../images/img_pvp/tp.jpg" alt="Twin Peaks"><p>
+        <br>
+        <h3>Warfare</h3>
+        <p>Name: Alterac Valley</p>
+        <p>Battleground size: 40 vs 40</p>
+        <p>Win Condition: Burn 6 towers and kill enemy leader.</p>
+        <p>Strategy: Hold 3 or more nodes.</p>
+        <p><img class="pvpbasics-img" src="../../images/img_pvp/av.jpg" alt="Alterac Valley"><p>
+        <br>
+        <p>Name: Isle of Conquest</p>
+        <p>Battleground size: 40 vs 40</p>
+        <p>Win Condition: 1500 points</p>
+        <p>Strategy: Destroy Gates and kill enemy leader.</p>
+        <p><img class="pvpbasics-img" src="../../images/img_pvp/ioc.jpg" alt="Isle of Conquest"><p>
+      </div>
+    </div>
+
+    <!-- Script -->
+    <script type="text/javascript" src="../../js/script.js"></script>
+  </body>
+</html>

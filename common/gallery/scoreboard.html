@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../styles.css">
+    <title>Scoreboard</title>
+  </head>
+  <body class="body-background">
+    <div class="header">
+      <a href="../../index.html"><img src="../../images/source/dfbanner.jpg" class="header-image"></a>
+      <div class="header-text"></div>
+    </div>
+    <!-- Navigation Menu Container -->
+    <nav class="sideNav">
+      <!-- PvP Dropdown -->
+      <button class="dropdown-btn">PvP
+        <i class="dropdown-arrow"></i>
+      </button>
+      <nav class="sideNav-dropdown">
+        <a href="../pvp/pvpbasics.html">PvP Basics</a>
+        <a href="../pvp/arenas.html">Arenas</a>
+        <a href="../pvp/battlegrounds.html">Battlegrounds</a>
+      </nav>
+      <!-- Factions Dropdown -->
+      <button class="dropdown-btn">Factions
+        <i class="dropdown-arrow"></i>
+      </button>
+      <nav class="sideNav-dropdown">
+        <a href="../factions/alliance.html" id="factions-alliance">Alliance</a>
+        <a href="../factions/horde.html" id="factions-horde">Horde</a>
+      </nav>
+      <!-- Race Dropdown -->
+      <button class="dropdown-btn">Races
+        <i class="dropdown-arrow"></i>
+      </button>
+      <nav class="sideNav-dropdown">
+        <button class="dropdown-btn" id="alliance-btn">Alliance
+          <i class="dropdown-arrow"></i>
+        </button>
+        <nav class="sideNav-dropdown2">
+          <a href="../races_alliance/human.html">Human</a>
+          <a href="../races_alliance/dwarf.html">Dwarf</a>
+          <a href="../races_alliance/nightelf.html">Night Elf</a>
+          <a href="../races_alliance/gnome.html">Gnome</a>
+          <a href="../races_alliance/draenei.html">Draenei</a>
+          <a href="../races_alliance/worgen.html">Worgen</a>
+          <a href="../races_alliance/pandaren_a.html">Pandaren</a>
+          <button class="dropdown-btn">Allied
+            <i class="dropdown-arrow"></i>
+          </button>
+          <nav class="sideNav-dropdown3">
+            <a href="../races_alliance/voidelf.html">Void Elf</a>
+            <a href="../races_alliance/lightforged_draenei.html">Lightforged<br>Draenei</a>
+            <a href="../races_alliance/dark_iron_dwarf.html">Dark Iron <br>Dwarf</a>
+            <a href="../races_alliance/kultiran.html">Kul Tiran</a>
+            <a href="../races_alliance/mechagnome.html">Mechagnome</a>
+          </nav>
+        </nav>
+        <button class="dropdown-btn" id="horde-btn">Horde
+          <i class="dropdown-arrow"></i>
+        </button>
+        <nav class="sideNav-dropdown2">
+          <a href="../races_horde/orc.html">Orc</a>
+          <a href="../races_horde/undead.html">Undead</a>
+          <a href="../races_horde/tauren.html">Tauren</a>
+          <a href="../races_horde/troll.html">Troll</a>
+          <a href="../races_horde/bloodelf.html">Blood Elf</a>
+          <a href="../races_horde/goblin.html">Goblin</a>
+          <a href="../races_horde/pandaren_h.html">Pandaren</a>
+          <button class="dropdown-btn">Allied
+            <i class="dropdown-arrow"></i>
+          </button>
+          <nav class="sideNav-dropdown3">
+            <a href="../races_horde/nightborne.html">Nightborne</a>
+            <a href="../races_horde/highmountain_tauren.html">Highmountain<br>Tauren</a>
+            <a href="../races_horde/maghar_orc.html">Mag'har Orc</a>
+            <a href="../races_horde/zandalari_troll.html">Zandalari<br>Troll</a>
+            <a href="../races_horde/vulpera.html">Vulpera</a>
+          </nav>
+        </nav>
+      </nav>
+      <!-- Class Dropdown -->
+      <button class="dropdown-btn">Classes
+        <i class="dropdown-arrow"></i>
+      </button>
+      <nav class="sideNav-dropdown">
+        <a href="../classes/deathknight.html" id="dk-color">Death Knight</a>
+        <a href="../classes/demonhunter.html" id="dh-color">Demon Hunter</a>
+        <a href="../classes/druid.html" id="druid-color">Druid</a>
+        <a href="../classes/hunter.html" id="hunter-color">Hunter</a>
+        <a href="../classes/mage.html" id="mage-color">Mage</a>
+        <a href="../classes/monk.html" id="monk-color">Monk</a>
+        <a href="../classes/paladin.html" id="paladin-color">Paladin</a>
+        <a href="../classes/priest.html" id="priest-color">Priest</a>
+        <a href="../classes/rogue.html" id="rogue-color">Rogue</a>
+        <a href="../classes/shaman.html" id="shaman-color">Shaman</a>
+        <a href="../classes/warlock.html" id="warlock-color">Warlock</a>
+        <a href="../classes/warrior.html" id="warrior-color">Warrior</a>
+      </nav>
+      <!-- Gallery Dropdown -->
+      <button class="dropdown-btn">Gallery
+        <i class="dropdown-arrow"></i>
+      </button>
+      <nav class="sideNav-dropdown">
+        <a href="scoreboard.html">Scoreboard</a>
+      </nav>
+    </nav>
+    <!-- Main Container -->
+    <div class="img-row">
+      <!-- column Left -->
+      <div class="img-column">
+        <img class="image" id="sb1-left"
+        alt="<span class='desc1'>Objective:</span><span class='desc2'> 67 kills</span><br>
+        <span class='desc1'>Battleground:</span><span class='desc2'> Alterac Valley</span><br>
+        <span class='desc1'>Player:</span><span class='desc2'> Cezex</span>"
+        src="../../images/Scoreboard/67kb AV Event UHDK2.jpg" onclick="onClick(this)">
+        <p>67 Kills AV Event</p>
+
+        <img class="image" id="sb2-left"
+        alt="<span class='desc1'>Rating:</span><span class='desc2'> 1570</span><br>
+        <span class='desc1'>Battleground:</span><span class='desc2'> Rated Seething Shore</span><br>
+        <span class='desc1'>Player:</span><span class='desc2'> Velocrow</span>"
+        src="../../images/Scoreboard/RBG-SS_Velocrow.jpg" onclick="onClick(this)">
+        <p>Rated Seething Shore</p>
+
+        <img class="image" id="sb3-left"
+        alt="<span class='desc1'>Rating:</span><span class='desc2'> 1578</span><br>
+        <span class='desc1'>Battleground:</span><span class='desc2'> Rated Deepwind Gorge</span><br>
+        <span class='desc1'>Player:</span><span class='desc2'> Velocrow</span>"
+        src="../../images/Scoreboard/RBG-DWG_Velocrow.jpg" onclick="onClick(this)">
+        <p>Rated Deepwind Gorge</p>
+
+        <img class="image" id="sb4-left"
+        alt="<span class='desc1'>Rating:</span><span class='desc2'> 192</span><br>
+        <span class='desc1'>Battleground:</span><span class='desc2'> Rated Warsong Gulch</span><br>
+        <span class='desc1'>Player:</span><span class='desc2'> Velocrow</span>"
+        src="../../images/Scoreboard/RBG-WSG_Velocrow.jpg" onclick="onClick(this)">
+        <p>Rated Warsong Gulch</p>
+
+        <img class="image" id="sb5-left"
+        alt="<span class='desc1'>Objective:</span><span class='desc2'> 1 Flag Captured</span><br>
+        <span class='desc1'>Battleground:</span><span class='desc2'> Warsong Gulch</span><br>
+        <span class='desc1'>Player:</span><span class='desc2'> Velocrow</span>"
+        src="../../images/Scoreboard/BG-WSG_Velocrow.jpg" onclick="onClick(this)">
+        <p>Warsong Gulch</p>
+      </div>
+      <!-- column Right -->
+      <div class="img-column">
+        <img class="image" id="sb1-right"
+        alt="<span class='desc1'>Objective:</span><span class='desc2'> 384 points</span><br>
+        <span class='desc1'>Battleground:</span><span class='desc2'> Temple of Kotmogu</span><br>
+        <span class='desc1'>Player:</span><span class='desc2'> Velocrow</span>"
+        src="../../images/Scoreboard/384pts_BG-ToK_Velocrow.jpg" onclick="onClick(this)">
+        <p>Kotmogu (384pts)</p>
+
+        <img class="image" id="sb2-right"
+        alt="<span class='desc1'>Objective:</span><span class='desc2'> 374 points</span><br>
+        <span class='desc1'>Battleground:</span><span class='desc2'> Temple of Kotmogu</span><br>
+        <span class='desc1'>Player:</span><span class='desc2'> Velocrow</span>"
+        src="../../images/Scoreboard/374pts_BG-ToK_Velocrow.jpg" onclick="onClick(this)">
+        <p>Kotmogu (374pts)</p>
+
+        <img class="image" id="sb3-right"
+        alt="<span class='desc1'>Objective:</span><span class='desc2'> 342 points</span><br>
+        <span class='desc1'>Battleground:</span><span class='desc2'> Temple of Kotmogu</span><br>
+        <span class='desc1'>Player:</span><span class='desc2'> Velocrow</span>"
+        src="../../images/Scoreboard/342pts_BG-ToK_Velocrow.jpg" onclick="onClick(this)">
+        <p>Kotmogu (342pts)</p>
+
+        <img class="image" id="sb4-right"
+        alt="<span class='desc1'>Objective:</span><span class='desc2'> 280 points</span><br>
+        <span class='desc1'>Battleground:</span><span class='desc2'> Temple of Kotmogu</span><br>
+        <span class='desc1'>Player:</span><span class='desc2'> Velocrow</span>"
+        src="../../images/Scoreboard/280pts_BG-ToK_Velocrow.jpg" onclick="onClick(this)">
+        <p>Kotmogu (280pts)</p>
+
+        <img class="image" id="sb5-right"
+        alt="<span class='desc1'>Objective:</span><span class='desc2'> Azerite</span><br>
+        <span class='desc1'>Battleground:</span><span class='desc2'> Silvershard Mines</span><br>
+        <span class='desc1'>Player:</span><span class='desc2'> Velocrow</span>"
+        src="../../images/Scoreboard/BG-SS_Velocrow.jpg" onclick="onClick(this)">
+        <p>Silvershard Mines</p>
+
+      </div>
+    </div>
+    <div id="modal" class="modal">
+      <span class="closeModal"></span>
+      <img class="modal-image" id="modal-image">
+      <div class="modal-caption" id="modal-caption"></div>
+    </div>
+
+    <script type="text/javascript" src="../../js/script.js"></script>
+  </body>
+</html>
