@@ -1,0 +1,299 @@
+/* index.html */
+body {
+  margin: 0;
+  background-color: dimgrey;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: auto;
+}
+body, html {
+  cursor: url(images/source/wowcursor.gif), pointer;
+}
+.body-background {
+    background-image: url(images/source/dfbackground.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.header {
+    min-width: 100%;
+    min-height: 100%;
+    color: black;
+    text-align: center;
+    position: relative;
+    z-index: 0;
+    display: inline-block;
+}
+.header-text {
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 25%);
+}
+.header-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    overflow-y: auto;
+    min-width: 100%;
+    cursor: url(images/source/wowcursor_active.gif), pointer;
+}
+
+/* Navigation Menu */
+.sideNav {
+  margin: 0 0 0 5px;
+  padding: 50px 0px 50px 0px;
+  height: auto;
+  width: 150px;
+  position: absolute;
+  left: 0;
+  background-color: #4B2D0B;
+  border: 1px solid #D4AF37;
+  overflow-x: hidden;
+}
+.sideNav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  font-size: 20px;
+  color: #D4AF37;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+}
+.sideNav a:hover, .dropdown-btn:hover {
+    color: white;
+    cursor: url(images/source/wowcursor_active.gif), pointer;
+}
+.sideNav-dropdown {
+  display: none;
+  background-color: #654321;
+}
+.sideNav-dropdown2 {
+  display: none;
+  background-color: #754d26;
+}
+.sideNav-dropdown3 {
+  display: none;
+  background-color: #805328;
+  padding-left: 8px;
+}
+.dropdown-arrow {
+  float: right;
+  padding-right: 8px;
+  border: solid #D4AF37;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.dropdown-active {
+  background-color: grey;
+  color: white;
+}
+#factions-alliance:hover, #alliance-btn:hover, #factions-horde:hover, #horde-btn:hover {
+  color: white;
+}
+#dk-color:hover,#dh-color:hover, #druid-color:hover, #hunter-color:hover, #mage-color:hover, #monk-color:hover, #paladin-color:hover, #priest-color:hover, #rogue-color:hover, #shaman-color:hover, #warlock-color:hover, #warrior-color:hover {
+  color: white;
+}
+/* text */
+.text-center {
+  text-align: center;
+}
+/* Colors only */
+.alliance-color, #factions-alliance, #alliance-btn {
+  color: #162C57;
+}
+.horde-color, #factions-horde, #horde-btn {
+  color: #680C07;
+}
+
+.dk-color, #dk-color, #dk1, #dk2, #dk3 {
+  color: #C41F3B;
+}
+.dh-color, #dh-color, #dh1, #dh2, #dh2 {
+  color: #A330C9;
+}
+.druid-color, #druid-color, #druid1, #druid2, #druid3 {
+  color: #FF7D0A;
+}
+.hunter-color, #hunter-color, #hunter1, #hunter2, #hunter3 {
+  color: #ABD473;
+}
+.mage-color, #mage-color, #mage1, #mage2, #mage3 {
+  color: #69CCF0;
+}
+.monk-color, #monk-color, #monk1, #monk2, #monk3 {
+  color: #00FF96;
+}
+.paladin-color, #paladin-color, #paladin1, #paladin2, #paladin3 {
+  color: #F58CBA;
+}
+.priest-color, #priest-color, #priest1, #priest2, #priest3 {
+  color: #FFFFFF;
+}
+.rogue-color, #rogue-color, #rogue1, #rogue2, #rogue3 {
+  color: #FFF569;
+}
+.shaman-color, #shaman-color, #shaman1, #shaman2, #shaman3 {
+  color: #0070DE;
+}
+.warlock-color, #warlock-color, #warlock1, #warlock2, #warlock3 {
+  color: #9482C9;
+}
+.warrior-color, #warrior-color, #warrior1, #warrior2, #warrior3 {
+  color: #C79C6E;
+}
+
+/* main container */
+.main {
+  /* margin: 0 5px 0 162px; */
+  margin: 0 162px 0 162px;
+  font-size: 25px;
+  padding: 0;
+}
+.main-content {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  background-color: #654321;
+  border: 1px solid #D4AF37;
+}
+.main-content2 {
+  margin-bottom: 10px;
+  background-color: #654321;
+  border: 1px solid #D4AF37;
+}
+.main-content h2, .main-content2 h2 {
+  margin: 0px 15px;
+  padding: 10px 0;
+  text-decoration: underline;
+}
+.main-content p, .main-content2 p, .main-content2 div, .main-content2 h3, .main-content2 h4 {
+  margin: 5px 15px;
+}
+.main-content2 h3 {
+  margin-top: 10px;
+}
+.main-row {
+  display: flex;
+}
+.main-column {
+  flex: 50%;
+  border: 1px solid #D4AF37;
+  background-color: #805328;
+}
+.main-table {
+  width: 100%;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #D4AF37;
+  border-collapse: collapse;
+}
+.main-table th, .main-table td {
+  border: 1px solid #D4AF37;
+  border-collapse: collapse;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* Image Grid */
+.img-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin: 0 5px 0 162px;
+}
+.img-column {
+  flex: 25%;
+  max-width: 50%;
+  padding: 0 4px;
+}
+.img-column img {
+  margin-bottom: 0px;
+  vertical-align: middle;
+  width: 100%;
+  border: 1px solid #D4AF37;
+  cursor: url(images/source/wowcursor_active.gif), pointer;
+}
+.img-column p {
+  margin-top: 0px;
+  padding: 2px 0 2px 0;
+  border: 1px solid #D4AF37;
+  width: 100%;
+  background-color: #654321;
+  text-align: center;
+  cursor: url(images/source/wowcursor_active.gif), pointer;
+}
+/* Image */
+.image {
+  cursor: url(images/wowcursor2_cropped.gif), pointer;
+}
+
+/* Modal background*/
+.modal, #modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 60px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.8);
+}
+/* Modal Box */
+.modal-image, #modal-image {
+  background-color: grey;
+  margin: auto;
+  border: 2px solid #D4AF37;
+  width: 80%;
+  display: block;
+}
+/* Modal Caption*/
+.modal-caption, #modal-caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  height: 50px;
+  text-align: center;
+  color: white;
+  padding-top: 5px;
+  font-size: 25px;
+}
+/* Modal Animation */
+.modal-image, .modal-caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+.desc1 {
+  color: white;
+}
+.desc2 {
+  color: red;
+}
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* pvpbasics.html */
+.pvpbasics-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  width: 75%;
+  border: 1px solid #D4AF37;
+}

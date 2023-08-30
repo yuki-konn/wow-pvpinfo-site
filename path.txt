@@ -1,0 +1,87 @@
+Project Folder
+	index.html
+	styles.css
+	
+	common
+		
+		classes
+		
+			deathknight.html
+			demonhunter.html
+			druid.html
+			hunter.html
+			mage.html
+			monk.html
+			paladin.html
+			priest.html
+			rogue.html
+			shaman.html
+			warlock.html
+			warrior.html
+			
+			
+		factions
+		
+			alliance.html
+			horde.html
+		
+		
+		gallery
+		
+			scoreboard.html
+		
+		
+		pvp
+		
+			arenas.html
+			battlegrounds.html
+			pvpbasics.html
+		
+		
+		races_alliance
+		
+			human.html
+			dwarf.html
+			nightelf.html
+			gnome.html
+			draenai.html
+			worgen.html
+			pandaren_a.html
+			
+			voidelf.html
+			lightforged_draenei.html
+			dark_iron_dwarf.html
+			kultiran.html
+			mechagnome.html
+			
+			
+		races_horde
+		
+			orc.html
+			undead.html
+			tauren.html
+			troll.html
+			bloodelf.html
+			goblin.html
+			pandaren_h.html
+			
+			nightborne.html
+			highmountain_tauren.html
+			maghar_orc.html
+			zandalari_troll.html
+			vulpera.html	
+		
+	images
+	
+		classes
+		expansions
+		faction_races
+		img_pvp
+		Scoreboard
+		source
+		
+	js
+		script.js
+	
+	
+	

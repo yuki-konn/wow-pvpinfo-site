@@ -1,0 +1,8 @@
+Objective_RBG or BG-battleground initials_character
+
+initials
+RBG = rated battleground
+BG = battleground
+SS = Seething Shore
+
+ex. BG-SS_Velocrow
